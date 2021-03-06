@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+#restartBtn {
+    outline: none;
+    margin-bottom: 20px;
+    color: white;
+    background-color: rgb(128, 36, 0);
+    border-radius: 7px;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: 1px solid black;
+    transition: 200ms transform;
+}
+
+#restartBtn:hover {
+    cursor: pointer;
+    transform: translateY(-4px);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+#gameBoard {
+    height: 450px;
+    width: 450px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cell {
+    height: 150px;
+    width: 150px;
+    font-size: 70px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
